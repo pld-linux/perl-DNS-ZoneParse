@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	DNS
 %define	pnam	ZoneParse
-Summary:	DNS::ZoneParse - Parse and manipulate DNS Zone Files.
-#Summary(pl):	
+Summary:	DNS::ZoneParse - Parse and manipulate DNS Zone Files
+Summary(pl):	DNS::ZoneParse - analiza i obróbka plików stref DNS
 Name:		perl-DNS-ZoneParse
 Version:	0.95
 Release:	1
@@ -25,15 +25,23 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module will parse a Zone File and put all the Resource Records (RRs)
-into an anonymous hash structure. At the moment, the following types of 
-RRs are supported: SOA, NS, MX, A, CNAME, TXT, PTR. It could be useful for
-maintaining DNS zones, or for transferring DNS zones to other servers. If
-you want to generate an XML-friendly version of your zone files, it is
-easy to use XML::Simple with this module once you have parsed the zonefile.
+This module will parse a Zone File and put all the Resource Records
+(RRs) into an anonymous hash structure. At the moment, the following
+types of RRs are supported: SOA, NS, MX, A, CNAME, TXT, PTR. It could
+be useful for maintaining DNS zones, or for transferring DNS zones to
+other servers. If you want to generate an XML-friendly version of your
+zone files, it is easy to use XML::Simple with this module once you
+have parsed the zonefile.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ przetwarza pliki stref i umieszcza wszystkie rekordy zasobów
+(Resource Records, w skrócie RR) w anonimowej strukturze bêd±cej
+tablic± asocjacyjn±. Aktualnie obs³ugiwane s± nastêpuj±ce rodzaje
+rekordów: SOA, NS, MX, A, CNAME, TXT, PTR. Mo¿e to byæ przydatne przy
+zarz±dzaniu strefami DNS albo przekazywaniu stref na inne serwery.
+Je¶li chcemy wygenerowaæ przyjazn± dla XML wersjê plików stref, mo¿na
+³atwo u¿yæ XML::Simple wraz z tym modu³em zaraz po przeanalizowaniu
+pliku strefy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
