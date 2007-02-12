@@ -6,7 +6,7 @@
 %define	pdir	DNS
 %define	pnam	ZoneParse
 Summary:	DNS::ZoneParse - parse and manipulate DNS zone files
-Summary(pl):	DNS::ZoneParse - analiza i obróbka plików stref DNS
+Summary(pl.UTF-8):   DNS::ZoneParse - analiza i obrÃ³bka plikÃ³w stref DNS
 Name:		perl-DNS-ZoneParse
 Version:	0.95
 Release:	1
@@ -33,14 +33,14 @@ other servers. If you want to generate an XML-friendly version of your
 zone files, it is easy to use XML::Simple with this module once you
 have parsed the zonefile.
 
-%description -l pl
-Ten modu³ przetwarza pliki stref i umieszcza wszystkie rekordy zasobów
-(Resource Records, w skrócie RR) w anonimowej strukturze bêd±cej
-tablic± asocjacyjn±. Aktualnie obs³ugiwane s± nastêpuj±ce rodzaje
-rekordów: SOA, NS, MX, A, CNAME, TXT, PTR. Mo¿e to byæ przydatne przy
-zarz±dzaniu strefami DNS albo przekazywaniu stref na inne serwery.
-Je¶li chcemy wygenerowaæ przyjazn± dla XML wersjê plików stref, mo¿na
-³atwo u¿yæ XML::Simple wraz z tym modu³em zaraz po przeanalizowaniu
+%description -l pl.UTF-8
+Ten moduÅ‚ przetwarza pliki stref i umieszcza wszystkie rekordy zasobÃ³w
+(Resource Records, w skrÃ³cie RR) w anonimowej strukturze bÄ™dÄ…cej
+tablicÄ… asocjacyjnÄ…. Aktualnie obsÅ‚ugiwane sÄ… nastÄ™pujÄ…ce rodzaje
+rekordÃ³w: SOA, NS, MX, A, CNAME, TXT, PTR. MoÅ¼e to byÄ‡ przydatne przy
+zarzÄ…dzaniu strefami DNS albo przekazywaniu stref na inne serwery.
+JeÅ›li chcemy wygenerowaÄ‡ przyjaznÄ… dla XML wersjÄ™ plikÃ³w stref, moÅ¼na
+Å‚atwo uÅ¼yÄ‡ XML::Simple wraz z tym moduÅ‚em zaraz po przeanalizowaniu
 pliku strefy.
 
 %prep
