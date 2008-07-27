@@ -9,7 +9,7 @@ Summary:	DNS::ZoneParse - parse and manipulate DNS zone files
 Summary(pl.UTF-8):	DNS::ZoneParse - analiza i obróbka plików stref DNS
 Name:		perl-DNS-ZoneParse
 Version:	0.95
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
