@@ -4,7 +4,6 @@
 
 %define	pdir	DNS
 %define	pnam	ZoneParse
-%include	/usr/lib/rpm/macros.perl
 Summary:	DNS::ZoneParse - parse and manipulate DNS zone files
 Summary(pl.UTF-8):	DNS::ZoneParse - analiza i obróbka plików stref DNS
 Name:		perl-DNS-ZoneParse
